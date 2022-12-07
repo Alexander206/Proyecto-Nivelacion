@@ -1,0 +1,42 @@
+:root {
+  --colorOscuro: #3b3440;
+  --colorClaro: #f2ebd5;
+  --colorCafeClaro: #f2c185;
+  --colorCafe: #bf8f73;
+  --colorCafeOscuro: #8c5954;
+}
+
+/* Estilo para el boby */
+
+body {
+}
+
+/* Estilos para header  */
+
+header {
+  height: 500px;
+}
+
+.header_superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.header_img {
+  width: 3rem;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 150px;
+}
+
+/* Estilos para el footer  */
+
+.footer_img {
+  width: 3rem;
+}
