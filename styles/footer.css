@@ -1,0 +1,33 @@
+footer {
+  background-color: #3b3440;
+  height: 150px;
+}
+
+.footer_img {
+  width: 6rem;
+  margin: 20px 0 0 15px;
+}
+
+.nav-footer {
+  list-style: none;
+  text-decoration: none;
+  float: right;
+  color: white;
+  font-size: larger;
+  margin: 30px 45px 0 0;
+}
+
+.botones-footer {
+  font-size: small;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+.botones-footer:hover {
+  margin-left: 15px;
+  background-color: #3b344080;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.445);
+  color: white;
+}
