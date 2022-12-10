@@ -1,105 +1,21 @@
-@import url('./normalize.css');
+@import url("./normalize.css");
+@import url("./header.css");
+@import url("./footer.css");
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --colorOscuro: #3b3440;
-    --colorClaro: #f2ebd5;
-    --colorCafeClaro: #f2c185;
-    --colorCafe: #bf8f73;
-    --colorCafeOscuro: #8c5954;
+  --colorOscuro: #3b3440;
+  --colorClaro: #f2ebd5;
+  --colorCafeClaro: #f2c185;
+  --colorCafe: #bf8f73;
+  --colorCafeOscuro: #8c5954;
 }
 
 /* Estilo para el boby */
 
 body {
-    margin: 0;
-}
-
-/* Estilos para header  */
-header {
-    height: 500px;
-    background-image: url('../assets/background.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.mask {
-}
-
-.header_superior {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100px;
-    background-color: var(--colorClaro);
-    margin: 0;
-    padding: 0px 20px;
-}
-
-.header_img {
-    width: 5rem;
-}
-
-.nav-header {
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.botones-header {
-    font-size: larger;
-    color: var(--colorOscuro);
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 12px;
-    transition: 0.2s;
-}
-
-.botones-header:hover {
-    margin: 0 5px;
-    background-color: var(--colorCafeOscuro);
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.445);
-    color: white;
-    transition: 0.2s;
-}
-
-/* Estilos para el footer  */
-
-footer {
-    background-color: #3b3440;
-    height: 150px;
-}
-
-.footer_img {
-    width: 6rem;
-    margin: 20px 0 0 15px;
-}
-
-.nav-footer {
-    list-style: none;
-    text-decoration: none;
-    float: right;
-    color: white;
-    font-size: larger;
-    margin: 30px 45px 0 0;
-}
-
-.botones-footer {
-    font-size: small;
-    color: white;
-    text-decoration: none;
-    padding: 5px;
-    border-radius: 12px;
-}
-
-.botones-footer:hover {
-    margin-left: 15px;
-    background-color: #3b344080;
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.445);
-    color: white;
+  margin: 0;
 }
