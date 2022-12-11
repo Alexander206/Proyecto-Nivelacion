@@ -1,15 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Sintaxis Error Coffe</title>
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="stylesheet" href="../styles/contacto.css" />
+        <link rel="shortcut icon" href="../assets/logo-cafe.png" type="image/x-icon" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sintaxis Error Coffe</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="shortcut icon" href="./assets/logo-cafe.png" type="image/x-icon">
-</head>
+    <body>
+        <!-- Header -->
 
-<body></body>
+        <header>
+            <div class="mask">
+                <section class="header_superior">
+                    <img class="header_img" src="../assets/logo-cafe-blanco.png" alt="img de logo header" />
+                    <nav>
+                        <ul class="nav-header">
+                            <li><a class="botones-header" href="/index.html">Nosotros</a></li>
+                            <li><a class="botones-header" href="/pages/cursos.html">Cursos</a></li>
+                            <li><a class="botones-header" href="/pages/contacto.html">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </section>
+                <h1>Blog de cafe con consejos y cursos</h1>
+                <p>Aprender de los expertos con las mejores recetas y consejos</p>
+            </div>
+        </header>
 
+        <!-- Main -->
+
+        <main class="contacto__main">
+            <h3 class="contacto__title">Contacto</h3>
+            <figure class="contacto__imagen"></figure>
+
+            <form class="contacto__formulario" action="">
+                <label class="contacto__formulario__item" for="Nombre">
+                    <span class="contacto__formulario__span">Nombre</span>
+                    <input class="contacto__formulario__input" id="nombre" type="text" placeholder="Tu nombre" />
+                </label>
+
+                <label class="contacto__formulario__item" for="email">
+                    <label class="contacto__formulario__span">Email</label>
+                    <input class="contacto__formulario__input" id="email" type="email" placeholder="Tu Email" />
+                </label>
+
+                <label class="contacto__formulario__item" for="mensaje">
+                    <label class="contacto__formulario__span">Mensaje</label>
+                    <textarea class="contacto__formulario__textarea" id="mensaje"></textarea>
+                </label>
+
+                <label class="contacto__formulario__item">
+                    <input class="contacto__formulario__btn" type="submit" value="enviar" />
+                </label>
+            </form>
+        </main>
+
+        <!-- Footer -->
+
+        <footer>
+            <section class="footer_superior">
+                <img class="footer_img" src="../assets/logo-cafe-blanco.png" alt="img de logo footer" />
+                <nav>
+                    <ul class="nav-footer">
+                        Redes Sociales
+                        <li><a class="botones-footer" href="">Instagram</a></li>
+                        <li><a class="botones-footer" href="">Twitter</a></li>
+                        <li><a class="botones-footer" href="">Facebook</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer_inferior">
+                <p>&#169; Todos los derechos reservados.</p>
+            </section>
+        </footer>
+
+        <!-- Script  -->
+
+        <script src="../app.js"></script>
+    </body>
 </html>

@@ -1,21 +1,30 @@
-@import url("./normalize.css");
-@import url("./header.css");
-@import url("./footer.css");
+/* Importar otros estilos */
 
-* {
-  box-sizing: border-box;
-}
+@import url('./normalize.css');
+@import url('./header.css');
+@import url('./footer.css');
+
+/* Importar fuentes */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* Paleta de colores */
 
 :root {
-  --colorOscuro: #3b3440;
-  --colorClaro: #f2ebd5;
-  --colorCafeClaro: #f2c185;
-  --colorCafe: #bf8f73;
-  --colorCafeOscuro: #8c5954;
+    --colorOscuro: #3b3440;
+    --colorClaro: #f2ebd5;
+    --colorCafeClaro: #f2c185;
+    --colorCafe: #bf8f73;
+    --colorCafeOscuro: #8c5954;
 }
 
-/* Estilo para el boby */
+/* Estilos globales */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
 body {
-  margin: 0;
+    margin: 0;
 }
