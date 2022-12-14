@@ -4,6 +4,7 @@ footer {
 
 .footer_superior {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
@@ -15,11 +16,16 @@ footer {
 }
 
 .nav-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     text-decoration: none;
     color: var(--colorClaro);
     font-size: larger;
     margin: 20px;
+    padding: 0px;
 }
 
 .botones-footer {
@@ -49,4 +55,13 @@ footer {
 
 .footer_inferior p {
     color: var(--colorClaro);
+}
+
+@media (min-width: 600px) {
+    .footer_superior {
+        flex-direction: row;
+    }
+    .nav-footer {
+        align-items: flex-start;
+    }
 }
