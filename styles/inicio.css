@@ -1,5 +1,7 @@
 .mainInicioItems {
+  width: 60vw;
   padding: 0 150px;
+  padding-right: 20px;
 }
 
 .mainInicioItems h2 {
@@ -36,4 +38,21 @@
   text-decoration: none;
   border: none;
   border-radius: 5%;
+}
+
+.mainAside {
+  margin-top: 20px;
+}
+
+.mainAside h3 {
+  font-size: 24px;
+}
+
+.mainAside .button {
+  background-color: var(--colorCafeOscuro);
+  color: var(--colorClaro);
+  padding: 10px 15px;
+  font-size: 15px;
+  text-decoration: none;
+  border: none;
 }

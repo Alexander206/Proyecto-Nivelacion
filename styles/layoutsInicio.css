@@ -1,7 +1,8 @@
 .mainInicio {
   margin-top: 2re;
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
   max-width: 120rem;
 }
 @media (max-width: 860px) {
