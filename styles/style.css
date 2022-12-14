@@ -3,6 +3,7 @@
 @import url("./normalize.css");
 @import url("./header.css");
 @import url("./footer.css");
+@import url("./nosotros");
 
 /* Importar fuentes */
 
@@ -11,61 +12,20 @@
 /* Paleta de colores */
 
 :root {
-    --colorOscuro: #3b3440;
-    --colorClaro: #f2ebd5;
-    --colorCafeClaro: #f2c185;
-    --colorCafe: #bf8f73;
-    --colorCafeOscuro: #8c5954;
+  --colorOscuro: #3b3440;
+  --colorClaro: #f2ebd5;
+  --colorCafeClaro: #f2c185;
+  --colorCafe: #bf8f73;
+  --colorCafeOscuro: #8c5954;
 }
 
 /* Estilos globales */
 
 * {
-    box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
-/* Estilos del main */
-
-.contenido {
-    width: min(90%, 120rem);
-    margin: 0 auto;
-}
-
-.subtitulo_sobre_nostros {
-    color: var(--colorOscuro);
-    font-size: 50px;
-    font-style: italic;
-    font-weight: lighter;
-    text-align: center;
-}
-
-.sobre_nosotros {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    column-gap: 3rem;
-}
-
-.sobre_nosotros_img {
-    box-sizing: inherit;
-}
-
-.sobre_nosotros_img img {
-    max-width: 100%;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    border-radius: 5%;
-}
-
-.sobre_nosotros_texto {
-    box-sizing: inherit;
-    padding: 20px 15px;
-    margin-bottom: 20%;
-    text-align: justify;
-}
-
-/* .parrafo1 .parrafo2 {
-  color: var(--colorCafeOscuro);
-} */

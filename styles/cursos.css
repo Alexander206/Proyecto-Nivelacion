@@ -1,68 +1,68 @@
 .background {
-    background-size: cover;
-    background-image: url(/assets/fondo-cu.jpg);
+  background-size: cover;
+  background-image: url(/assets/fondo-cu.jpg);
 }
 
 .nuestros_cursos {
-    color: var(--colorOscuro);
-    font-size: 50px;
-    font-style: italic;
-    font-weight: lighter;
-    text-align: center;
+  color: var(--colorOscuro);
+  font-size: 50px;
+  font-style: italic;
+  font-weight: lighter;
+  text-align: center;
 }
 
 #section {
-    max-width: 100px;
-    margin: 50% auto;
-    flex-direction: inline block;
+  max-width: 100px;
+  margin: 50% auto;
+  flex-direction: inline block;
 }
 
 h3 {
-    margin-inline-start: 30px;
-    justify-content: center;
-    align-items: center;
+  margin-inline-start: 30px;
+  justify-content: center;
+  align-items: center;
 }
 
 .texto_article {
-    padding: 10px 5px 5px;
-    margin-top: auto;
-    margin-bottom: auto;
-    text-align: center;
-    height: 50%;
-    width: 25%;
+  padding: 10px 5px 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  height: 50%;
+  width: 25%;
 }
 
 .imagen-article {
-    margin: 15px 15px 15px 150px;
-    height: 200px;
-    width: 350px;
-    object-fit: cover;
-    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-    border-radius: 5%;
+  margin: 15px 15px 15px 150px;
+  height: 200px;
+  width: 350px;
+  object-fit: cover;
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  border-radius: 5%;
 }
 
 article {
-    display: flex;
-    background-color: hsla(33, 53%, 53%, 0.896);
-    border-radius: 150px;
-    margin-left: 30px;
-    margin-right: auto;
-    margin-block-end: 15px;
+  display: flex;
+  background-color: hsla(33, 53%, 53%, 0.896);
+  border-radius: 150px;
+  margin-left: 30px;
+  margin-right: auto;
+  margin-block-end: 15px;
 }
 
 h3 {
-    text-align: center;
+  text-align: center;
 }
 
 .boton-inscripcion {
-    background-color: #ca6327a2;
-    color: #fff;
-    border-radius: 20px;
-    padding: 6px 10px;
-    box-shadow: 4px 4px 5px -2px rgba(0, 0, 0, 0.75);
-    margin-top: auto;
-    margin-bottom: auto;
-    border: none;
-    display: grid;
-    grid-template-columns: 15rem 500fr;
+  background-color: #ca6327a2;
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 10px;
+  box-shadow: 4px 4px 5px -2px rgba(0, 0, 0, 0.75);
+  margin-top: auto;
+  margin-bottom: auto;
+  border: none;
+  display: grid;
+  grid-template-columns: 15rem 500fr;
 }
