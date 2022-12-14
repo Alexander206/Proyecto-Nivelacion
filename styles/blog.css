@@ -1,0 +1,52 @@
+.mainBlogsItems {
+  padding-bottom: 2.5rem;
+}
+.mainBlogsItems h3 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.mainBlogsItems img {
+  max-width: 40%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.mainBlogsItems img:hover {
+  transform: scale(1.2);
+}
+
+.mainBlogs_Title {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  color: var(--colorCafeClaro);
+  padding-left: 1rem;
+}
+
+.mainBlogs_Parrafo {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--colorOscuro);
+  text-align: justify;
+  padding: 0 2.8rem;
+}
+
+.mainBlogsItem {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.mainBlogs_btn {
+  background-color: var(--colorCafeOscuro);
+  color: var(--colorClaro);
+  padding: 10px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
+  text-align: center;
+}

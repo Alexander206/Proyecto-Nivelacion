@@ -1,0 +1,11 @@
+.mainInicio {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  max-width: 120rem;
+}
+@media (max-width: 860px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+}

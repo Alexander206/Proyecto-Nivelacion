@@ -1,0 +1,39 @@
+.mainInicioItems {
+  padding: 0 150px;
+}
+
+.mainInicioItems h2 {
+  font-size: 36px;
+}
+
+.mainInicioItems article {
+  border-bottom: solid 2px var(--colorCafe);
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.mainInicioItems img {
+  margin: 0;
+  max-height: 30rem;
+  object-fit: cover;
+}
+
+.mainInicioItem_Title {
+  margin: 1rem 0;
+  text-transform: capitalize;
+}
+
+.mainInicioItem_Parrafo {
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.mainInicioItems .btn {
+  background-color: var(--colorCafeOscuro);
+  color: var(--colorClaro);
+  padding: 10px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5%;
+}
