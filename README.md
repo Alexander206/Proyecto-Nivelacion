@@ -1,4 +1,4 @@
-# Proyecto Final
+# Proyecto Final QSD
 
 Este es el proyecto final de la nivelación de BIT.
 
@@ -9,3 +9,5 @@ Este es el proyecto final de la nivelación de BIT.
 -   JavaScript
 
 Somos el mejor grupo de la clase 🙌👍
+
+Deimar El mejor profe 
