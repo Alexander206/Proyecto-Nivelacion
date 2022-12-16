@@ -38,24 +38,24 @@
             <h3 class="contacto__title">Contacto</h3>
             <figure class="contacto__imagen"></figure>
 
-            <form class="contacto__formulario" action="">
+            <form class="contacto__formulario" action="" method="get">
                 <label class="contacto__formulario__item" for="Nombre">
                     <span class="contacto__formulario__span">Nombre</span>
-                    <input class="contacto__formulario__input" id="nombre" type="text" placeholder="Tu nombre" />
+                    <input class="contacto__formulario__input" id="nombre" type="text" placeholder="Tu nombre" required/>
                 </label>
 
                 <label class="contacto__formulario__item" for="email">
                     <label class="contacto__formulario__span">Email</label>
-                    <input class="contacto__formulario__input" id="email" type="email" placeholder="Tu Email" />
+                    <input class="contacto__formulario__input" id="email" type="email" placeholder="Tu Email" required/>
                 </label>
 
                 <label class="contacto__formulario__item" for="mensaje">
                     <label class="contacto__formulario__span">Mensaje</label>
-                    <textarea class="contacto__formulario__textarea" id="mensaje"></textarea>
+                    <textarea class="contacto__formulario__textarea" id="mensaje" required></textarea>
                 </label>
 
                 <label class="contacto__formulario__item">
-                    <input class="contacto__formulario__btn" type="submit" value="enviar" />
+                    <input class="contacto__formulario__btn" type="submit" value="enviar" required/>
                 </label>
             </form>
         </main>
