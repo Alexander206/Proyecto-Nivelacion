@@ -1,12 +1,12 @@
 .mainInicio {
-  margin-top: 2re;
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-  max-width: 120rem;
+    margin-top: 2re;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 120rem;
 }
-@media (max-width: 860px) {
-  .mainInicio {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 768px) {
+    .mainInicio {
+        flex-direction: column;
+    }
 }

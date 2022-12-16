@@ -1,58 +1,72 @@
 .mainInicioItems {
-  width: 60vw;
-  padding: 0 150px;
-  padding-right: 20px;
+    width: 60vw;
+    padding: 0 150px;
+    padding-right: 20px;
 }
 
 .mainInicioItems h2 {
-  font-size: 36px;
+    font-size: 36px;
 }
 
 .mainInicioItems article {
-  border-bottom: solid 2px var(--colorCafe);
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+    border-bottom: solid 2px var(--colorCafe);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mainInicioItems img {
-  margin: 0;
-  max-height: 30rem;
-  object-fit: cover;
+    margin: 0;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 .mainInicioItem_Title {
-  margin: 1rem 0;
-  text-transform: capitalize;
+    margin: 1rem 0;
+    text-transform: capitalize;
 }
 
 .mainInicioItem_Parrafo {
-  line-height: 1.5;
-  text-align: justify;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .mainInicioItems .btn {
-  background-color: var(--colorCafeOscuro);
-  color: var(--colorClaro);
-  padding: 10px 15px;
-  font-size: 20px;
-  text-decoration: none;
-  border: none;
-  border-radius: 5%;
+    background-color: var(--colorCafeOscuro);
+    color: var(--colorClaro);
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
 }
 
 .mainAside {
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .mainAside h3 {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .mainAside .button {
-  background-color: var(--colorCafeOscuro);
-  color: var(--colorClaro);
-  padding: 10px 15px;
-  font-size: 15px;
-  text-decoration: none;
-  border: none;
+    background-color: var(--colorCafeOscuro);
+    color: var(--colorClaro);
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .mainInicioItems {
+        width: 85vw;
+    }
+
+    .mainAside {
+        align-self: center;
+        text-align: center;
+        align-items: center;
+
+        margin-bottom: 70px;
+    }
 }
