@@ -64,6 +64,7 @@
   font-size: 20px;
   text-decoration: none;
   border: none;
+  border-radius: 5px;
 }
 
 .mainAside {
@@ -81,6 +82,7 @@
   font-size: 15px;
   text-decoration: none;
   border: none;
+  border-radius: 5px;
 }
 
 @media (max-width: 768px) {
