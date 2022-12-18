@@ -23,6 +23,7 @@
   object-fit: cover;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
   border-radius: 5%;
+  margin-bottom: 10px;
 }
 
 .nosotrosItem p {
@@ -32,7 +33,7 @@
   text-align: justify;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1024px), (max-width: 960px), (max-width: 768px) {
   .nosotrosItem {
     grid-template-columns: 1fr;
   }
