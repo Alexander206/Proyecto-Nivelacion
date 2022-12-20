@@ -38,26 +38,31 @@
             <h3 class="contacto__title">Contacto</h3>
             <figure class="contacto__imagen"></figure>
 
-            <form class="contacto__formulario" action="" method="get">
+            <form class="contacto__formulario" action="" method="post">
                 <label class="contacto__formulario__item" for="Nombre">
                     <span class="contacto__formulario__span">Nombre</span>
-                    <input class="contacto__formulario__input" id="nombre" type="text" placeholder="Tu nombre" required/>
+                    <input name="nombre" class="contacto__formulario__input" id="nombre" type="text" placeholder="Tu nombre" required pattern="[a-zA-Z ]{2,254}"/>
                 </label>
 
                 <label class="contacto__formulario__item" for="email">
                     <label class="contacto__formulario__span">Email</label>
-                    <input class="contacto__formulario__input" id="email" type="email" placeholder="Tu Email" required/>
+                    <input name="email" class="contacto__formulario__input" id="email" type="email" placeholder="Tu Email" required/>
                 </label>
 
                 <label class="contacto__formulario__item" for="mensaje">
                     <label class="contacto__formulario__span">Mensaje</label>
-                    <textarea class="contacto__formulario__textarea" id="mensaje" required></textarea>
+                    <textarea name="mensaje" class="contacto__formulario__textarea" id="mensaje" required minlength="30"></textarea>
                 </label>
 
                 <label class="contacto__formulario__item">
                     <input class="contacto__formulario__btn" type="submit" value="enviar" required/>
                 </label>
             </form>
+
+            <button id="getUsers">Imprimir data</button>
+            <div class="container__data">
+                <ul id="dataUserGet"></ul>
+            </div>
         </main>
 
         <!-- Footer -->
@@ -69,7 +74,7 @@
                     class="footer_img"
                     src="../assets/logo-cafe-blanco.png"
                     alt="img de logo footer"
-                  />
+                />
                 </a>
                 <nav>
                     <ul class="nav-footer">
@@ -86,6 +91,6 @@
         </footer>
 
         <!-- Script  -->
-
+        <script src="../scripts/forms.js"></script>
     </body>
 </html>

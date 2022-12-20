@@ -1,40 +1,64 @@
 .nosotrosItems {
-  padding: 0 4rem;
-  max-width: 120rem;
-  margin: 4 auto;
+    padding: 0 4rem;
+    max-width: 120rem;
+    margin: 4 auto;
 }
 
 .nosotrosItems h3 {
-  color: var(--colorOscuro);
-  font-size: 3rem;
-  text-align: center;
-  font-style: italic;
+    color: var(--colorOscuro);
+    font-size: 3rem;
+    text-align: center;
+    font-style: italic;
 }
 
 .nosotrosItem {
-  display: grid;
-  grid-template-columns: 40rem 1fr;
-  gap: 3rem;
+    display: grid;
+    grid-template-columns: 40rem 1fr;
+    gap: 3rem;
 }
 
 .nosotrosItem img {
-  width: 100%;
-  max-height: 30rem;
-  object-fit: cover;
-  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
-  border-radius: 5%;
-  margin-bottom: 10px;
+    max-height: 30rem;
+    object-fit: cover;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    border-radius: 5%;
+    margin-bottom: 10px;
 }
 
 .nosotrosItem p {
-  color: var(--colorCafeOscuro);
-  line-height: 1.5;
-  font-size: 1.2rem;
-  text-align: justify;
+    color: var(--colorCafeOscuro);
+    line-height: 1.5;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
-@media (max-width: 1024px), (max-width: 960px), (max-width: 768px) {
-  .nosotrosItem {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 1280px) {
+    .nosotrosItem img {
+        height: 25rem;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+    .nosotrosItem {
+        grid-template-columns: 1fr;
+    }
+
+    .nosotrosItem {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nosotrosItems div {
+        display: flex;
+        flex-direction: column;
+        order: -1;
+    }
+}
+
+@media (max-width: 550px) {
+    .nosotrosItem {
+        position: relative;
+    }
+    .nosotrosItem img {
+        height: auto;
+    }
 }

@@ -1,127 +1,129 @@
 .mainInicioItems {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
 }
 
 .mainInicioItems h2 {
-  font-size: 36px;
-  color: var(--colorOscuro);
+    font-size: 36px;
+    color: var(--colorOscuro);
 }
 
 .mainInicioItems article {
-  border-bottom: solid 2px var(--colorCafe);
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+    border-bottom: solid 2px var(--colorCafe);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mainInicioItems img {
-  margin: 0;
-  max-height: 30rem;
-  object-fit: cover;
+    margin: 0;
+    max-height: 30rem;
+    object-fit: cover;
 }
 
 .mainInicioItem_Title {
-  color: var(--colorOscuro);
-  margin: 1rem 0;
-  text-transform: capitalize;
+    color: var(--colorOscuro);
+    margin: 1rem 0;
+    text-transform: capitalize;
 }
 
 .mainInicioItem_Parrafo {
-  line-height: 1.5;
-  text-align: justify;
+    line-height: 1.5;
+    text-align: justify;
 }
 
 .mainInicioItem_btn {
-  display: flex;
-  justify-content: end;
-  gap: 15px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
 }
 
 .btn_Like {
-  background-color: transparent;
-  border: none;
+    background-color: transparent;
+    border: none;
 }
 
 .btn_Like img {
-  width: 2.4rem;
-  display: block;
-  object-fit: cover;
-  transition: 0.2s;
+    width: 2.4rem;
+    display: block;
+    object-fit: cover;
+    transition: 0.2s;
 }
 
 .btn_Like img:hover {
-  width: 2.5rem;
-  cursor: pointer;
-  transition: 0.2s;
+    width: 2.5rem;
+    cursor: pointer;
+    transition: 0.2s;
 }
 
 .mainInicioItem_Parrafo2 {
-  color: var(--colorCafeOscuro);
+    color: var(--colorCafeOscuro);
 }
 
 .Calificacion {
-  color: var(--colorCafeOscuro);
-  align-self: center;
-  font-size: 1.2rem;
+    color: var(--colorCafeOscuro);
+    align-self: center;
+    font-size: 1.2rem;
 }
 
 .mainInicioItems .btn {
-  background-color: var(--colorCafeOscuro);
-  color: var(--colorClaro);
-  padding: 10px 15px;
-  font-size: 20px;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
+    background-color: var(--colorCafeOscuro);
+    color: var(--colorClaro);
+    padding: 10px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
 }
 
 .mainAside {
-  margin-top: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .mainAside article {
-  border-bottom: solid 2px var(--colorCafeClaro);
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+    border-bottom: solid 2px var(--colorCafeClaro);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .mainAside h3 {
-  font-size: 24px;
-  color: var(--colorOscuro);
+    font-size: 24px;
+    color: var(--colorOscuro);
 }
 .mainAside div {
-  text-align: center;
+    text-align: center;
 }
 
 .mainAside .button {
-  background-color: var(--colorCafeOscuro);
-  color: var(--colorClaro);
-  padding: 10px 15px;
-  font-size: 15px;
-  text-decoration: none;
-  border: none;
-  border-radius: 5px;
-  text-align: end;
+    background-color: var(--colorCafeOscuro);
+    color: var(--colorClaro);
+    padding: 10px 15px;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    text-align: end;
 }
 
 @media (max-width: 768px) {
-  .mainInicioItems {
-    width: 85vw;
-  }
+    .mainInicioItems {
+        width: 85vw;
+    }
 
-  .mainAside {
-    align-self: center;
-    text-align: center;
-    align-items: center;
+    .mainAside {
+        align-self: center;
+        text-align: center;
+        align-items: center;
 
-    margin-bottom: 70px;
-  }
+        margin-bottom: 70px;
+        margin-left: 0px;
+    }
 }
 
 @media (max-width: 630px) {
-  .mainInicioItem_btn {
-    margin-top: 20px;
-  }
+    .mainInicioItem_btn {
+        margin-top: 20px;
+    }
 }
